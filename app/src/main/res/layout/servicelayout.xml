@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardView"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20sp"
+            android:text="name:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:padding="3dp"
+                android:id="@+id/volly_name"
+                android:textSize="20sp"
+                android:text="name will be written here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/volly_play_button"
+                android:text="play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20sp"
+                    android:text="autoplay:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="3dp"
+                    android:id="@+id/volly_autoplay"
+                    android:textSize="20sp"
+                    android:text=" "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/volly_download"
+                    android:text="sset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20sp"
+                    android:text="loop:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="3dp"
+                    android:id="@+id/volly_loop"
+                    android:textSize="20sp"
+                    android:text=" "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
